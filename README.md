@@ -38,6 +38,12 @@ At this point you can now synthesize the CloudFormation template for this code.
 $ cdk synth
 ```
 
+In case this is the first time your are running CDK on your AWS Profile (Account/Region), install the bootstrap stack on it.
+
+```
+$ cdk bootstrap
+```
+
 If no error messages are shown, deploy the architecture on AWS.
 
 ```

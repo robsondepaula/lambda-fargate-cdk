@@ -18,8 +18,12 @@ setuptools.setup(
     package_dir={"": "lambda_fargate"},
     packages=setuptools.find_packages(where="lambda_fargate"),
 
+    # There is no need for you to update 'requirement.txt" just add the dependency on the next array and then do the 'pip install -r requirements.txt'
     install_requires=[
         "aws-cdk.core==1.32.0",
+        "aws-cdk.aws-ec2",
+        "aws-cdk.aws-lambda",
+        "boto3"
     ],
 
     python_requires=">=3.6",

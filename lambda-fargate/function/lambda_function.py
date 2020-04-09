@@ -31,7 +31,7 @@ def handler(event, context):
         overrides={
             'containerOverrides': [
                 {
-                    'name': 'fargate-container', # this is the container name found on the TaskDefinition (Cloudformation)
+                    'name': 'SimpleContainer', # this is the container name found on the TaskDefinition
                     'environment': [
                         {
                             'name': "LAMBDA_NAME",

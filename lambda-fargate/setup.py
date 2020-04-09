@@ -23,6 +23,8 @@ setuptools.setup(
         "aws-cdk.core==1.32.0",
         "aws-cdk.aws-ec2",
         "aws-cdk.aws-lambda",
+        "aws-cdk.aws-ecs",
+        "aws-cdk.aws-iam",
         "boto3"
     ],
 
